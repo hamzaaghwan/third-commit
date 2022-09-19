@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico" type="image/x-icon">
+    <title>Netflix Pakistan - Watch TV shows</title>
+</head>
+
+<style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    body{
+        background-color: black;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+    .main{
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://assets.nflxext.com/ffe/siteui/vlv3/a795ee10-8c6d-467c-8159-254be2b69013/18c29ec7-cd0c-48b3-9d89-0d6c14792dd9/PK-en-20220912-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        
+    }
+    
+    
+    .navbar{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+
+        }
+    .logo{
+         width: 11%;
+         height: 51px;
+         color: #e50914;
+         padding-left: 54px;
+         margin-top: 52px;
+    }
+    .btn_1{
+        background-color: #e50914;
+        padding: 7px 17px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 75px;
+        margin-top: 17px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-size: 16px;
+    }
+    .container{
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+
+    }
+    .tittles{
+        color: white;
+        text-align: center;  
+        font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+        line-height: 72px;
+        letter-spacing: normal;
+        width: 50vw;
+        margin: auto;
+        position: relative;
+        top:0em ;
+        left: 1.5em;
+        /* border: 2px solid white; */
+        
+    }
+
+
+    .h1_1{
+        font-size:62px;
+        font-weight: 700;
+        font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+        letter-spacing: 2px;
+        width: 84%;
+        margin-left: 35px;
+    }
+    .h2_1{
+        font-size:23px;
+        font-weight:400;
+        font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+        line-height: 2em;
+        letter-spacing: 2px;
+        margin-right: 37px;
+
+    }
+    .para_1{
+        font-size:1.2em;
+        font-weight:500; 
+        font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+        line-height: 3em;
+
+    }
+.input_btn{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: relative;
+    left: 1em;
+}
+.input{
+ height: fit-content;
+ width: 57%;
+ padding: 20px 7px;
+ font-size:medium;
+}
+
+.btn_2{
+    height: fit-content;
+    padding: 17px 3px;
+    width: 33%;
+    background-color: #e50914;
+    color: white;
+    font-size:x-large;
+    cursor: pointer;
+    margin-left: -1px;
+    /* font-family: 'Nunito', sans-serif */
+}
+
+/* section 1 */
+
+.sec_2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    padding: 2rem 8rem;
+    border-bottom: 0.6rem solid #111
+    
+    
+}
+
+.sec_2 .text_2{
+    width: 40%;
+}
+.sec_2 .text_2 h1{
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: white;
+
+}
+.sec_2 .text_2 p{
+    font-size: 1.7rem;
+    color: white;
+
+}
+    
+.sec_2 .img_2{
+    width: 45%;
+    
+
+}
+.sec_2 .img_2 img{
+    padding-bottom: 1rem;
+    height: 25em;
+    padding-left: 4rem;
+}
+
+/* section 2 */
+
+.sec_2 .text_3{
+    width: 46%;
+}
+.sec_2 .text_3 h1{
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: white;
+
+}
+.sec_2 .text_3 p{
+    font-size: 1.7rem;
+    color: white;
+
+}
+    
+.sec_2 .img_3{
+    width: 45%;
+    
+
+}
+.sec_2 .img_3 img{
+    padding-bottom: 1rem;
+    height: 25em;
+}
+
+/* section 3 */
+
+.sec_3{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    width: auto;
+    padding: 3rem 8rem;
+    border-bottom: 0.6rem solid #111
+}
+
+.sec_3 .text_3{
+    width: 46%;
+    position: relative;
+    left: 2rem;
+}
+.sec_3 .text_3 h1{
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: white;
+
+}
+.sec_3 .text_3 p{
+    font-size: 1.7rem;
+    color: white;
+
+}
+    
+.sec_3 .img_3{
+    width: 45%;
+    
+
+}
+.sec_3 .img_3 img{
+    padding-bottom: 1rem;
+    height: 25em;
+   
+}
+
+
+/* section 4 */
+
+.sec_4{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    padding: 2rem 10rem;
+    border-bottom: 0.6rem solid #111
+    
+    
+}
+
+.sec_4 .text_3{
+    width: 40%;
+}
+.sec_4 .text_3 h1{
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: white;
+
+}
+.sec_4 .text_3 p{
+    font-size: 1.7rem;
+    color: white;
+
+}
+    
+.sec_4 .img_3{
+    width: 45%;
+    
+
+}
+.sec_4 .img_3 img{
+    padding-bottom: 1rem;
+    height: 25em;
+    padding-left: 4rem;
+}
+
+/* section 5 */
+.sec_5{
+    width: 60%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.sec_5 h1{
+    font-size: 3rem;
+    color: white;
+    padding: 3rem 0px 4rem;
+}
+
+.tittle{
+    background: #303030;
+    padding: 20px 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-decoration: none;
+     width: 48rem;
+     margin-bottom: 10px;
+
+
+}
+
+.sec_6{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.6rem solid #111
+}
+
+
+.input_btn2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem ;
+    
+}
+.input2{
+ height: fit-content;
+ width: 32%;
+ padding: 20px 7px;
+ font-size:medium;
+}
+
+.btn_22{
+    height: fit-content;
+    padding: 17px 3px;
+    width: 15%;
+    background-color: #e50914;
+    color: white;
+    font-size:x-large;
+    cursor: pointer;
+    margin-left: -1px;
+        /* font-family: 'Nunito', sans-serif */}
+
+    .para_2{
+        font-size:1.2em;
+        font-weight:500; 
+        font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+        line-height: 3em;
+        color: white;
+        margin-left: 30rem;
+        margin-top: 2rem;
+
+}
+</style>
+
+
+
+
+
+<body>
+    
+    <Div class="main">
+    <nav class="navbar">
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png" alt="netflix logo" class="logo">
+        <button class="btn_1">Sign in </button>
+    </nav>
+
+
+    <div class="container">
+        <div class="tittles">    
+        <h1 class="h1_1">Unlimited movies, TV shows, and more.</h1>
+        <h2 class="h2_1">Watch anywhere. Cancel anytime.</h2>
+        <p class="para_1">Ready to watch? Enter your email to create or restart your membership.</p>
+
+
+        <div class="input_btn">
+            <input type="text" placeholder="Email Adress" class="input">
+            <button class="btn_2"> GET STARTED ></button>
+        </div>
+        </div>
+
+    </div>
+3
+        <section class="sec_2">
+            <div class="text_2">
+                <h1>Enjoy on your TV.</h1>
+                <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+            </div>
+            <div class="img_2">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+            </div>
+        </section>
+
+
+        <section class="sec_2">
+            <div class="img_3">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+            </div>
+            <div class="text_3">
+                <h1>Download your shows to watch offline.</h1>
+                <p>Save your favorites easily and always have something to watch</p>
+            </div>
+        </section>
+        
+        
+
+        <section class="sec_3">
+            <div class="text_3">
+                <h1>Watch everywhere.</h1>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+        </section>
+
+
+
+        
+        <section class="sec_4">
+            <div class="img_3">
+                <img src="https://occ-0-4163-2773.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png?r=11f" alt="">
+            </div>
+            <div class="text_3">
+                <h1>Create profiles for kids..</h1>
+                <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+            </div>
+        </section>
+    
+ <section class="sec_5">
+   <h1>Frequently Asked Questions</h1>
+
+
+
+ <div class="menu">
+    <div class="list">
+        <a href="#list1" class="tittle">
+            <span>What is Netflix?</span>
+            <span class="material-symbols-outlined">
+                add
+                </span>
+        </a>
+    </div>
+
+    <div class="list">
+        <a href="#list1" class="tittle">
+            <span>How much does Netflix cost?</span>
+            <span class="material-symbols-outlined">
+                add
+                </span>
+        </a>
+    </div>
+    <div class="list">
+        <a href="#list1" class="tittle">
+            <span>Where can I watch?</span>
+            <span class="material-symbols-outlined">
+                add
+                </span>
+        </a>
+    </div>
+    <div class="list">
+        <a href="#list1" class="tittle">
+            <span>How do I cancel?</span>
+            <span class="material-symbols-outlined">
+                add
+                </span>
+        </a>
+    </div>
+    <div class="list">
+        <a href="#list1" class="tittle">
+            <span>What can I watch on Netflix?</span>
+            <span class="material-symbols-outlined">
+                add
+                </span>
+        </a>
+    </div>
+    <div class="list">
+        <a href="#list1" class="tittle">
+            <span>Is Netflix good for kids?</span>
+            <span class="material-symbols-outlined">
+                add
+                </span>
+        </a>
+    </div>
+
+ </div>
+ </section>
+
+ <section class="sec_6">
+    <div class="container2  ">
+        
+        <p class="para_2">Ready to watch? Enter your email to create or restart your membership.</p>
+
+
+        <div class="input_btn2">
+            <input type="text" placeholder="Email Adress" class="input2">
+            <button class="btn_22"> GET STARTED ></button>
+        </div>
+        </div>
+
+    </div>
+ </section>
+
+ <section class="footer">
+    <div class="one">
+        <ul class="ul_1">
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+        </ul>
+        <ul class="ul_1">
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            
+        </ul>
+    </div>
+    <div class="one">
+        <ul class="ul_1">
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+        </ul>
+        <ul class="ul_1">
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            <li><a href="#"></a>one</li>
+            
+        </ul>
+    </div>
+ </section>
+</body>
+
+</html>
